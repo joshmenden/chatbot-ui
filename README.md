@@ -1,12 +1,4 @@
-# Chatbot UI
-
-Chatbot UI is an advanced chatbot kit for OpenAI's chat models built on top of [Chatbot UI Lite](https://github.com/mckaywrigley/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
-
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
-
-![Chatbot UI](./public/screenshot.png)
-
-## This Fork
+# Chatbot UI (forked)
 
 The original repo has moved onto a v2 which IMO is a trying to be everything to everyone and is significantly more complicated than what I need. I forked the repo and turned their [`legacy`](https://github.com/mckaywrigley/chatbot-ui/tree/legacy) branch into the `main` branch here. For more details on the legacy branch, see the `README.md` in the original repo.
 
