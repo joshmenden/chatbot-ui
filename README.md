@@ -6,7 +6,7 @@ See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=
 
 ![Chatbot UI](./public/screenshot.png)
 
-# This Fork
+## This Fork
 
 The original repo has moved onto a v2 which IMO is a trying to be everything to everyone and is significantly more complicated than what I need. I forked the repo and turned their [`legacy`](https://github.com/mckaywrigley/chatbot-ui/tree/legacy) branch into the `main` branch here. For more details on the legacy branch, see the `README.md` in the original repo.
 
@@ -17,14 +17,14 @@ The original repo has moved onto a v2 which IMO is a trying to be everything to 
 Build locally:
 
 ```shell
-docker build -t chatgpt-ui .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
+docker build -t chatbot-ui .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatbot-ui
 ```
 
-Pull from ghcr:
+Pull from docker hub:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 joshmenden/chatbot-ui:latest
 ```
 
 ## Running Locally
@@ -32,7 +32,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/joshmenden/chatbot-ui.git
 ```
 
 **2. Install Dependencies**
