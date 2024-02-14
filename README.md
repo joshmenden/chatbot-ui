@@ -13,10 +13,11 @@ docker build -t chatbot-ui .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatbot-ui
 ```
 
-Pull from docker hub:
+### Building for raspberry pi
 
+Build on the pi if you can, or an AWS ARM instance will do it quickly with this command:
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 joshmenden/chatbot-ui:latest
+docker buildx build -t chatbot-ui:latest --platform linux/arm64/v8 . --push
 ```
 
 ## Running Locally
